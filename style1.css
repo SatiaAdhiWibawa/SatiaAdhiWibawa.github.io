@@ -1,0 +1,184 @@
+body{
+ font: 16px/28px arial, sans-serif;
+ background-color: #CC00FF;
+ color: #333333;
+}
+
+
+.container {
+	width: 980px; 
+	margin: 80px auto;
+	background-color: red;
+	background-image: url(img/logo1.png);
+	position: relative;
+
+}
+.instagram {
+	width: 150px;
+	height: 150px;
+	background-image: url(img/ig1.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+	right: -42px;
+
+}
+
+.facecook {
+	width: 150px;
+	height: 160px;
+	background-image: url(img/fb1.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+	left:0;
+
+}
+
+.header {
+	padding: 10px;
+	text-align: center;
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	text-align:center;
+
+}
+.header a {
+	text-decoration: none;
+	color: blue;
+	padding: 2px;
+}
+.header a:hover {
+	border-color: lightblue;
+	color: red;
+}
+
+.gambar {
+ height: 320px;
+ background-image: url(img/logoweb.jpg);
+ background-size: cover;
+ background-position: 0 -180px;
+ border-top: 5px solid lightskyblue;
+ border-bottom: 5px solid red;
+ margin-top: 25px;
+}
+
+
+.artikel {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.artikel h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.artikel .penulis {
+	font-size: 14px;
+	margin-top: 4px;
+}
+.artikel a:hover {
+	border-color: lightblue;
+	color: green;
+}
+.artikel a {
+	color: red;
+	text-decoration: none;
+	border-color: lightblue;
+	color: red;
+}
+
+.artikel p {
+	margin-bottom: 20px;
+	font-size: 15px
+}
+
+/*sidebar*/
+
+.samping img {
+	width: 140px;
+	float: left;
+	padding-right:10px;
+}
+
+.samping p {
+	font: 12px/18px arial;
+}
+
+.samping {
+width: 300px;
+float: right;
+padding: 20px;
+}
+
+.samping h3 {
+	font-weight: bold;
+	color: #666666;
+}
+
+.biodata {
+	text-align: center;
+	color: red;
+	font-size: 100px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+}
+.sosial {
+	text-align: center;
+	color: red;
+	font-size: 100px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.table a {
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #333
+
+}
+.footer .copy {
+	color: lightblue;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px
+}
+
+/* clear fix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
